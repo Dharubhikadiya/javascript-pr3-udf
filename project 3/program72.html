@@ -1,0 +1,35 @@
+<script type="text/javascript">
+
+    var a = parseInt(prompt("enter value of A :- "));
+    var b = parseInt(prompt("enter value of B :- "));
+    var c = parseInt(prompt("enter value of C :- "));
+
+    function max(a,b,c){
+
+ if(a>b){
+    if(a>c){
+        document.write("A is big");
+    }else{
+        document.write("C is big");
+    }
+ }else{
+    if(b>a){
+       if(b>c){
+            document.write("B is big");
+       }else{
+            if(c>a){
+                document.write("C is big");
+            }else{
+                document.write("A is big");
+            }
+       }
+    }else{
+        document.write("B is big");
+    }
+ }
+
+}
+
+max(a,b,c);
+
+</script>

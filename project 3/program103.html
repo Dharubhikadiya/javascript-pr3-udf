@@ -1,0 +1,25 @@
+<script type="text/javascript">
+
+    var a = parseInt(prompt("enter the age :- "));
+    
+        var ans = eo(a);
+
+         if(ans == 1){
+            console.log("you eligible for voting");
+            document.write("you eligible for voting");
+         }else{
+            console.log("you eligible for not voting");
+            document.write("you eligible for not voting");
+         }
+    
+    function eo(a){
+        if(a >= 18){
+           return 1;
+        }else{
+            return 2;
+        }
+    }
+
+    eo(a);
+
+    </script>

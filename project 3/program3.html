@@ -1,0 +1,44 @@
+<script type="text/javascript">
+
+    function great(){
+
+    var a = parseInt(prompt("enter value of A :- "));
+    var b = parseInt(prompt("enter value of B :- "));
+    var c = parseInt(prompt("enter value of C :- "));
+    var d = parseInt(prompt("enter value of D :- "));
+
+  if(a>b){ 
+	if(a>c){
+		if(a>d){
+            document.write("A is big");
+			
+		}else{
+            document.write("D is big");
+		}
+	}else{
+		if(c>d){
+			if(c>b){
+                document.write("C is big");
+			}else{
+                document.write("B is big");
+			}
+		}else{
+            document.write("D is big");
+		}
+	}             
+}else{
+	if(b>c){
+		if(b>d){
+            document.write("B is big");
+		}else{
+            document.write("D is big");
+		}
+	}else{
+        document.write("C is big");
+	}
+  }
+}
+
+great();
+
+</script>
